@@ -12,7 +12,7 @@ const AnimalContainer = () => {
         <Animal list={animals} >
             <h1>Endangered Animals</h1>
         </Animal>
-``    </>
+    </>
 }
 
 export default AnimalContainer;
