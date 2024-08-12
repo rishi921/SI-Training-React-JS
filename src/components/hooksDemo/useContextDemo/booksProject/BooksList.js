@@ -2,7 +2,6 @@ import { useContext, useEffect, useState } from "react";
 import { getBooks } from "../../../../assets/data/books";
 import { BooksContext } from "../../../../store/contextStore";
 
-
 const readerBooks = (books) => {
     return books.map((book) => {
         return (
