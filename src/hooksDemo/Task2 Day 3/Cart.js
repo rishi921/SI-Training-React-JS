@@ -8,6 +8,7 @@ const Cart = () => {
 
     const handlePayNow = () => {
         dispatch({ type: 'CLEAR_CART' });
+        alert("Payment successful! Items removed from cart.");
     };
 
     return (

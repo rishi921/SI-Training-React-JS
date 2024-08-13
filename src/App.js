@@ -36,11 +36,15 @@ import 'bootstrap/dist/css/bootstrap.css'
 
 // import DisplayAPIDemo from './hooksDemo/customhooks/Day3Task';
 
-import Cart from './hooksDemo/Task2 Day 3/Cart';
-import { CartProvider } from './hooksDemo/Task2 Day 3/CartContext';
-import UserSettings from './hooksDemo/Task2 Day 3/UserSettings';
+// import Cart from './hooksDemo/Task2 Day 3/Cart';
+// import { CartProvider } from './hooksDemo/Task2 Day 3/CartContext';
+// import UserSettings from './hooksDemo/Task2 Day 3/UserSettings';
 
 // import Kanducart from './hooksDemo/Task2 Day 3/KanduCart';
+
+import Cart from './hooksDemo/Task2 Day 3/Abhay Cart/Cart';
+import Cart2 from './hooksDemo/Task2 Day 3/Abhay Cart/Cart2';
+
 
 
 function App() {
@@ -84,15 +88,18 @@ function App() {
       {/* <ShippingAddress /> */}
       {/* <DisplayAPIDemo /> */}
 
-      <CartProvider>
+      {/* <CartProvider>
         <div>
           <Cart />
           <hr />
           <UserSettings />
         </div>
-      </CartProvider>
+      </CartProvider> */}
 
       {/* <Kanducart /> */}
+
+      <Cart />
+      <Cart2 />
 
     </>
   );
