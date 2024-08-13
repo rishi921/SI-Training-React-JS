@@ -27,7 +27,7 @@ const BooksList = () => {
 
     return (
         <>
-            <h1>Books</h1>
+            <h1 style={{color: "orangered"}}>Books</h1>
             <table className="table table-striped">
                 <thead>
                     <tr>
