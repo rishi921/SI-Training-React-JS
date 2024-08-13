@@ -26,7 +26,22 @@ import 'bootstrap/dist/css/bootstrap.css'
 // import BooksList from './components/hooksDemo/useContextDemo/booksProject/BooksList';
 // import CleanUpWithUseEffect from './hooksDemo/useEffectDemo/CleanUpDemo';
 // import Counter from './hooksDemo/useEffectDemo/Counter';
-import Counter from './hooksDemo/useReducerDemo/CounterReducer';
+// import Counter from './hooksDemo/useReducerDemo/CounterReducer';
+// import BalanceReducer from './hooksDemo/useReducerDemo/BalanceReducer';
+// import RefWithMouseEvent from './hooksDemo/useRefDemo/MouseDownEvent'; 
+
+// import TextBoxFocus from './hooksDemo/useRefDemo/TextBoxFocus';
+// import FormElement from './hooksDemo/customhooks/TextBoxWithCustomHook';
+// import ShippingAddress from './hooksDemo/customhooks/ShippingAddress';
+
+// import DisplayAPIDemo from './hooksDemo/customhooks/Day3Task';
+
+import Cart from './hooksDemo/Task2 Day 3/Cart';
+import { CartProvider } from './hooksDemo/Task2 Day 3/CartContext';
+import UserSettings from './hooksDemo/Task2 Day 3/UserSettings';
+
+// import Kanducart from './hooksDemo/Task2 Day 3/KanduCart';
+
 
 function App() {
   return (
@@ -61,7 +76,24 @@ function App() {
 
       {/* <CleanUpWithUseEffect /> */}
       {/* <Counter /> */}
-      <Counter />
+      {/* <Counter /> */}
+      {/* <BalanceReducer /> */}
+      {/* <TextBoxFocus /> */}
+      {/* <RefWithMouseEvent /> */}
+      {/* <FormElement/> */}
+      {/* <ShippingAddress /> */}
+      {/* <DisplayAPIDemo /> */}
+
+      <CartProvider>
+        <div>
+          <Cart />
+          <hr />
+          <UserSettings />
+        </div>
+      </CartProvider>
+
+      {/* <Kanducart /> */}
+
     </>
   );
 }
