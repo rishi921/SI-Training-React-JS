@@ -42,8 +42,13 @@ import 'bootstrap/dist/css/bootstrap.css'
 
 // import Kanducart from './hooksDemo/Task2 Day 3/KanduCart';
 
-import Cart from './hooksDemo/Task2 Day 3/Abhay Cart/Cart';
-import Cart2 from './hooksDemo/Task2 Day 3/Abhay Cart/Cart2';
+// import Cart from './hooksDemo/Task2 Day 3/Abhay Cart/Cart';
+// import Cart2 from './hooksDemo/Task2 Day 3/Abhay Cart/Cart2';
+
+// import ChildComponent from './hooksDemo/useMemoDemo/ChildComponent';
+// import MemoizedContainer from './hooksDemo/useMemoDemo/MemoizedContainer';
+// import MemoisedSearch from './hooksDemo/useMemoDemo/MemoisedSearch';
+import BadComponentContainer from './ErrorBoundary/BadComponent';
 
 
 
@@ -98,8 +103,13 @@ function App() {
 
       {/* <Kanducart /> */}
 
-      <Cart />
-      <Cart2 />
+      {/* <Cart />
+      <Cart2 /> */}
+
+      {/* <ChildComponent /> */}
+      {/* <MemoizedContainer /> */}
+      {/* <MemoisedSearch /> */}
+      <BadComponentContainer />
 
     </>
   );
